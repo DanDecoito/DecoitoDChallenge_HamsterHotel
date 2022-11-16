@@ -1,0 +1,238 @@
+
+/*-------------------------------------------------------Overview---------------------------------*/
+.indexHeader{
+    background-color: #000324e3 ;
+    width: 100%;
+    
+    text-align: center;
+    
+}
+
+
+.absolute{
+    position: absolute;
+}
+.navList{
+    
+    display: inline;
+    text-align:center ;
+    margin: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+
+    
+    
+}
+
+
+a:link{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.header{
+    top: 119px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+
+.headerOverlay{
+position: relative;
+background-color: #000324d3 ;
+margin-top: 100px;
+margin-left: 200px;
+margin-right: 200px;
+text-align: center;
+color: white;
+padding: 80px;
+font-family: 'Dosis', sans-serif;
+
+
+}
+
+
+.awardListGroup{
+    margin-top: 6rem;
+}
+.reserveButton{
+    border: 2px solid #E5FEFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------Rooms page styling-------              */
+.hamsterHome{
+    top: 728px;
+left: 393px;
+width: 369px;
+height: 416px
+
+
+}
+.overviewContent{
+  margin-top: 350px;
+  font-family: 'Dosis', sans-serif;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+
+.awardList{
+    display: inline;
+    text-align:center ;
+    margin: 20px;
+    text-align: justify;
+   
+
+}
+
+
+
+
+/*-------------------------------------------------Rooms-------------------------------------------*/
+
+.roomContent{
+    
+    background-image: url(../assets/hotelMarkupAssets/bg.jpg);
+    padding-bottom: 50px;
+    margin-top: 200px   ;
+}
+
+.roomText{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.cardList{
+font-size: small;
+}
+.overviewParagraph{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/*                          Packages Page Styling                       */
+
+.packagesContent{
+margin-top: 200px;
+}
+.packagesImage{
+    width: 561px;
+    height: 234px;
+    
+    padding: 0px;
+    
+}
+.packagesText{
+    margin-left: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+
+}
+.packagesTitle{
+    font: normal normal normal 25px/32px Dosis;
+    font-size: 25px;
+}
+.packagesCost{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    color: #1f51a8;
+
+}
+
+
+
+
+.amenetiesContent{
+background-image: url(/assets/hotelMarkupAssets/bg2.jpg);
+height: 458px;
+width: 100%;
+color: white;
+text-align: center;
+margin-top: 200px;
+padding-top: 40px;
+}
+.amenetiesList{
+    display: inline;
+    padding: 70px;
+    padding-top: 50px;
+}
+
+
+.reserveHeader{
+margin-top: 200px;
+background-color: #000324;
+color: white;
+text-align: center;
+}
+.reserveBoxes{
+    top: 3711px;
+left: 488px;
+width: 177px;
+height: 38px;
+
+background: #EBEDFC 0% 0% no-repeat padding-box;
+border: 1px solid #7A90D9;
+opacity: 1;
+}
+.reserveBoxesAvailability{
+    top: 3711px;
+left: 1256px;
+width: 177px;
+height: 38px;
+background: #006EDB 0% 0% no-repeat padding-box;
+border: 1px solid #000DC7;
+opacity: 1;
+}
+
+.HamsterReserveImage{
+
+
+top: 3797px;
+left: 392px;
+width: 100%;
+height: 480px;
+}
+
+
+
+
+
+
+.footer{
+    background-color: #000324;
+    justify-content: center;
+    
+    color: white;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
