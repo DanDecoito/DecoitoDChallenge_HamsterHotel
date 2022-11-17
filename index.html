@@ -31,20 +31,16 @@
         <div class="row">
             <div class="col-12 ">
             <ul class="d-flex justify-content-center">
-                <li class="navList mt-5"><a  href="...">Overview</a></li>
-                <li class="navList mt-5"><a href="#Rooms">Rooms</a></li>
-                <li class="navList mt-5"><a href="...">Packages</a></li>
+                <li class="navList down"><a  href="#overviewJump">Overview</a></li>
+                <li class="navList down"><a href="#roomsJump">Rooms</a></li>
+                <li class="navList down"><a href="#packagesJump">Packages</a></li>
                 <li class="navList"><img src="./assets/hotelMarkupAssets/Logo.png" alt="" class=""></li>
-                <li class="navList mt-5"><a href="...">Ameneties</a></li>
-                <li class="navList mt-5"><a href="...">Contact</a></li>
-                <li class="navList mt-5"><a class="reserveButton" href="...">Reserve</a></li>
+                <li class="navList down"><a href="#amenetiesJump">Ameneties</a></li>
+                <li class="navList down"><a href="#reserveJump">Contact</a></li>
+                <li class="navList down"><a class="reserveButton" href="#reserveJump">Reserve</a></li>
             </ul>
             </div>
         </div>
-
-
-
-         
 
 
         </nav>
@@ -64,6 +60,7 @@
 
 
     <!--------------------------OVERVIEW CONTENT START----------------->
+    
     <div class="container overviewContent">
         <div class="row">
             <div class=" col-4">
@@ -72,7 +69,7 @@
             </div>
 
             <div class=" col-8">
-                <h1>Welcome to a Hamster's Paradise</h1>
+                <h1 id="overviewJump">Welcome to a Hamster's Paradise</h1>
                 <p class="overviewParagraph">Nestled in the heart of Cavia California, La Petite Maison is a luxury
                     hotel designed for the small
                     mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and
@@ -90,11 +87,11 @@
         </div>
     </div>
     <!------------------------------------Rooms Start---------------------------->
-    <div class=" container-fluid roomContent text-center">
-        <h1 id="Rooms" class="roomText">Our Rooms</h1>
-        <div class="row">
+    <div class=" container-fluid roomContent">
+        <h1 id="roomsJump" class="roomText">Our Rooms</h1>
+        <div class="row mx-">
             <div class="col-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card cardStyle" style="width: 18rem;">
                     <img src="./assets/hotelMarkupAssets/room1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Queen Room</h5>
@@ -103,13 +100,14 @@
                             <li class="cardList">One queen size bed</li>
                             <li class="cardList">Seed Bar, fireplace and large balcony</li>
                             <li class="cardList">Small Kitchen with a refrigerator and stove</li>
+                            <li class="blank">____</li>
                         </ul>
                         <a href="#" class="btn btn-primary">Reserve</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-3">
+                <div class="card cardStyle2" style="width: 18rem;">
                     <img src="./assets/hotelMarkupAssets/room2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">King Room</h5>
@@ -118,13 +116,14 @@
                             <li class="cardList">One king size bed</li>
                             <li class="cardList">Seed Bar, fireplace and large balcony</li>
                             <li class="cardList">Small Kitchen with a refrigerator and stove</li>
+                            <li class="blank">.</li>
                         </ul>
                         <a href="#" class="btn btn-primary">Reserve</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col">
+                <div class="card cardStyle3" style="width: 18rem;">
                     <img src="./assets/hotelMarkupAssets/room3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Beach Side Suite</h5>
@@ -142,9 +141,9 @@
         </div>
     </div>
     <!------------------------------------Packages Start---------------------------->
-    <div class="container packagesContent">
+    <div class="container packagesContent" style="padding-right: 100px; padding-left: 100px;">
         <div class="row packagesRow">
-            <div class="col-6 packagesColumn"><img src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt=""
+            <div id="packagesJump" class="col-6 packagesColumn"><img src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt=""
                     class="packagesImage"></div>
             <div class="col-6 packagesColumn">
                 <p class="packagesTitle">Beach Wedding Package</p>
@@ -183,13 +182,13 @@
 
     <!-------------------------------------AMENETIES START------------------------------------>
 
-    <div class="container amenetiesContent">
-        <h2>Ameneties</h2>
+    <div class="container-fluid amenetiesContent">
+        <h2 id="amenetiesJump">Ameneties</h2>
         <p>Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay
             we can provide.</p>
 
 
-        <ul>
+        <ul class="amenetiesListWhole">
             <li class="amenetiesList">
                 <img src="./assets/hotelMarkupAssets/24hour.png" alt="">
             </li>
@@ -207,60 +206,56 @@
     <!----------------------------------------------RESERVE CONTENT------------------------>
 
     <div class="container reserveContent">
-
-
-
-        <div class="reserveHeader">
+        <div class="row reserveHeader" style="margin-left: 88px;">
+            <h2 id="reserveJump" class="ReserveHeaderText"">Reserve a Room</h2>
+            <div class="row">
+                <div class="col-2" style="margin-left: 100px;">Check-in</div>
+                <div class="col-2">Check-out</div>
+                <div class="col-2">Number of Guests</div>
+                <div class="col-2 ">Room Type</div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"style="margin-left: 100px;"><p class="reserveBoxes"></p></div>
+                <div class="col-2"><p class="reserveBoxes"></p></div>
+                <div class="col-2"><p class="reserveBoxes"></p></div>
+                <div class="col-2"><p class="reserveBoxes"></p></div>
+                <div class="col-2"><p class="reserveBoxesAvailability">Check Availability</p></div>
+            </div>
+            </div>
         </div>
-        <div class="row reserveHeader">
-            <h2>Reserve a Room</h2>
-            <div class="col-2">Check-in
-                <p class="reserveBoxes"></p>
-            </div>
-            <div class="col-2">Check-out
-                <p class="reserveBoxes"></p>
-            </div>
-            <div class="col-2">Number of Guests
-                <p class="reserveBoxes"></p>
-            </div>
-            <div class="col-2">Room type
-                <p class="reserveBoxes"></p>
-            </div>
-            <div class="col-2">
-                <p></p>
-                <p class="reserveBoxesAvailability">
-                    Check Availability
-                </p>
-            </div>
+                    <img src="./assets/hotelMarkupAssets/hamsterreserve.jpg" alt="" class="HamsterReserveImage">
 
-        </div>
+        <div class="container-fluid">
+           <div class="row">
+            <div class="col-12">
 
-
-        <img src="./assets/hotelMarkupAssets/hamsterreserve.jpg" alt="" class="HamsterReserveImage">
         <footer class="footer">
 
             <img src="./assets/hotelMarkupAssets/Logo.png" alt="">
             <p>123 Sunflower Seed Rd., Cavia, California 95205</p>
             <p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
 
+
         </footer>
+            </div>
+
+           </div>
+           
+
+        </div>
+        
+        
 
 
 
 
-    </div>
 
 
 
 
 
 
-
-
-    <div class="container">
-
-
-    </div>
 
 
 
