@@ -1,5 +1,8 @@
 # DecoitoDChallenge_HamsterHotel
-
+    Daniel Decoito
+    11/18/22 3:38pm
+    Challenge: Hamster Hotel
+    Try to Recreate a given website design pixel to pixel
 
 
 Howmework assignment replicating a website design
